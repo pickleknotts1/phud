@@ -362,7 +362,7 @@
 				"fieldName"							"XPBar"
 				"xpos"								"0"
 				"ypos"								"0"
-				"wide"								"120"
+				"wide"								"100"
 				"tall"								"20"
 				"proportionaltoparent"				"1"
 
