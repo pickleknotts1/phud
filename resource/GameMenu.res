@@ -3,9 +3,15 @@
 	/////////////////////////MAIN MENU/////////////////////////
 	"Version"
 	{
-		"label" 									"PHud" 
+		"label" 									"PHud"
 		"command" 									"engine showconsole; echo phud by Pickleknotts -- Based on m0rehud; play physics/body/body_medium_impact_hard4.wav"
 		"OnlyAtMenu"								"1"
+	}
+	"HiddenVersion"
+	{
+		"label" 									""
+		"command" 									"engine play ui/hitsound.wav"
+		"OnlyInGame"								"1"
 	}
 	"Servers"
 	{
@@ -41,6 +47,7 @@
 	{
 		"label"										"DemoUI"
 		"command"									"engine demoui"
+		"OnlyAtMenu"              "1"
 	}
 	"Friends"
 	{
@@ -56,6 +63,7 @@
 	{
 		"label"										"Workshop"
 		"command"									"engine OpenSteamWorkshopDialog"
+		"OnlyAtMenu"              "1"
 	}
 	"Quit"
 	{
@@ -77,12 +85,6 @@
 	{
 		"label"										"Disconnect"
 		"command"									"engine disconnect"
-		"OnlyInGame"								"1"
-	}
-	"QuitGame"
-	{
-		"label"										"Quit"
-		"command"									"engine replay_confirmquit"
 		"OnlyInGame"								"1"
 	}
 	"Vote"
@@ -111,6 +113,13 @@
 		"label"										"J"
 		"command"									"OpenAchievementsDialog"
 		"tooltip"									"Achievements"
+		"OnlyInGame"								"1"
+	}
+	"Retry"
+	{
+		"label"										"N"
+		"command"									"engine retry"
+		"tooltip"									"Rejoin The Game"
 		"OnlyInGame"								"1"
 	}
 
